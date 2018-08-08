@@ -150,3 +150,26 @@ someSet.insert(5)
 someSet.remove(3)
 print(someSet)
 
+
+// Big O Notation
+
+// O(1) is constant complexity, no matter how many items are in a collection, it will take the same time.
+// O(N) Linear complexity, for example, 100 items will take 100 seconds.
+// O(Log N) Doesn't scale linearly, but logarithmically, for example 100 items will take 3 seconds.
+
+//Arrays
+
+// Accessing by Index: O(1)
+// INserting/Deleting at start/end: O(1)
+// in middle: O(N)
+// Searching by value: O(N)
+
+// Dictionaries/Sets
+
+// Searching by key: O(1)
+// Inserting/deleting: O(1)
+// Accessing by index: N/A
+
+// if ordering matters choose arrays
+// if frequent search choose dictionaries
+// choose sets if main concern is something in collection
